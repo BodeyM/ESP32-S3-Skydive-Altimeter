@@ -2,10 +2,13 @@
 
 This is a DIY digital visual altimeter powered by the ESP32-S3 and CircuitPython. It utilizes a barometric pressure sensor to track altitude, manage power states, and display critical phase-specific messages (Ascent vs. Descent) to the jumper.
 
-> ⚠️ **DANGER: SAFETY WARNING** ⚠️
+> ⚠️ **DANGER** ⚠️
 >
 > **DO NOT USE THIS DEVICE AS YOUR PRIMARY ALTIMETER.**
-> This software and hardware design is for **educational and hobbyist purposes only**. It has not been tested against industry safety standards. Electronics can fail, batteries can die, and code can crash. **ALWAYS** jump with a certified, commercially manufactured audible and visual altimeter.
+> 
+> This software and hardware design is for **educational and hobbyist purposes only**. It has not been tested against industry safety standards. Electronics can fail, batteries can die, and code can crash.
+>
+> **ALWAYS** jump with a multiple redundant system of industry standard, commercially manufactured audible and visual altimeters.
 
 ## 🌟 Features
 
