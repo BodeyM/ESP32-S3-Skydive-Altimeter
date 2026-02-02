@@ -105,4 +105,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 📄 License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+The source code of this project is licensed under [MIT](https://choosealicense.com/licenses/mit/).
+
+The fonts 'CrimsonPro-30' and 'CrimsonPro-96' are a derivative of 'Crimson Pro', licensed under the SIL Open Font License, Version 1.1.
