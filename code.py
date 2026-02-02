@@ -81,15 +81,15 @@ while True:
             # Logic: Show if we are above 1500, haven't shown it yet, and aren't super high yet
             if alt_ft > settings.ALT_SEATBELT and not alerts_triggered["seatbelt"]:
                 # Only show this during the climb phase (before we get too high)
-                if alt_ft < settings.ALT_SEATBELT + 3000: 
-                    current_message = "REMOVE SEATBELT"
+                if alt_ft < settings.ALT_SEATBELT + 1000: 
+                    current_message = "SEATBELT"
                 else:
                     # We missed the window or showed it long enough, mark done
                     alerts_triggered["seatbelt"] = True
 
             # Message: Check Gear (> 10000')
             if alt_ft > settings.ALT_CHECK_GEAR and not alerts_triggered["check_gear"]:
-                if alt_ft < settings.ALT_CHECK_GEAR + 3000:
+                if alt_ft < settings.ALT_CHECK_GEAR + 1000:
                     current_message = "CHECK GEAR"
                 else:
                     alerts_triggered["check_gear"] = True
@@ -107,7 +107,7 @@ while True:
                 # Message: PULL (< 4000')
                 # We check if we are below 4000 but above a landing buffer (e.g. 1000)
                 # so it doesn't say PULL while you are landing under canopy.
-                elif 1000 < alt_ft < settings.ALT_PULL:
+                elif 2000 < alt_ft < settings.ALT_PULL:
                     current_message = "PULL"
                 
         # Update Screen (Pass the battery percent now)
