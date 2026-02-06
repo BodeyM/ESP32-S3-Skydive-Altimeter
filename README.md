@@ -52,7 +52,7 @@ CIRCUITPY/
 
 ## ⚙️ Installation
 
-1.  **Install CircuitPython:** Flash your ESP32-S3 board with the latest version of CircuitPython (9.x recommended).
+1.  **Install CircuitPython:** Flash your ESP32-S3 board with the latest version of CircuitPython.
 2.  **Install Libraries:** Copy the following libraries from the [CircuitPython Bundle](https://circuitpython.org/libraries) to the `lib` folder on your device:
     *   `adafruit_bmp280`
     *   `adafruit_st7789`
