@@ -29,7 +29,7 @@ This is a DIY digital visual altimeter powered by the ESP32-S3 and CircuitPython
 
 This code is designed for the following hardware stack, though it can be adapted:
 
-*   **Microcontroller:** ESP32-S3 (e.g., Adafruit Feather ESP32-S3).
+*   **Microcontroller:** ESP32-S3 - I'm using the TENSTAR TS-ESP32-S3 board. It has everything needed for this project ready to go on one board.
 *   **Sensor:** BMP280 Barometric Pressure Sensor (I2C).
 *   **Display:** 1.14" 240x135 Color TFT (ST7789 driver).
 *   **Battery Monitor:** LC709203F (Built-in to many Adafruit Feather boards).
@@ -52,7 +52,7 @@ CIRCUITPY/
 
 ## ⚙️ Installation
 
-1.  **Install CircuitPython:** Flash your ESP32-S3 board with the latest version of CircuitPython.
+1.  **Install CircuitPython:** Flash your ESP32-S3 board with the latest version of CircuitPython. [For the TENSTAR TS-ESP32-S3 board, I'm using this version.](https://circuitpython.org/board/adafruit_feather_esp32s3_tft)
 2.  **Install Libraries:** Copy the following libraries from the [CircuitPython Bundle](https://circuitpython.org/libraries) to the `lib` folder on your device:
     *   `adafruit_bmp280`
     *   `adafruit_st7789`
