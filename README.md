@@ -59,7 +59,7 @@ CIRCUITPY/
     *   `adafruit_display_text`
     *   `adafruit_lc709203f`
     *   `adafruit_bitmap_font`
-3.  **Upload Code:** Copy all `.py` files (`code.py`, `settings.py`, etc.) to the root of the `CIRCUITPY` drive.
+3.  **Upload Code:** Copy all `.py` files (`code.py`, `settings.py`, etc.) and the `font` folder to the root of the `CIRCUITPY` drive.
 
 ## 🔧 Configuration (`settings.py`)
 
